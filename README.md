@@ -168,7 +168,7 @@ pytest>=6.2.5
 
 ## Project Structure
 ```
-The_Tale_of_Wealth_Health_Planet/
+INDE577_WDI/
 ├── supervised_learning/
 │   ├── knn/
 │   ├── gradient_descent/
@@ -182,6 +182,7 @@ The_Tale_of_Wealth_Health_Planet/
 ├── unsupervised_learning/
 │   └── kmeans/
 └── README.md
+├──images
 ```
 
 ## Key Findings

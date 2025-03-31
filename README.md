@@ -2,7 +2,7 @@
 
 # The Tale of Wealth, Health, and the Planet
 
-![##](/images/tale.png, width=400, height=400)
+![##](/images/tale.png)
 ## Project Overview
 This project explores the complex relationships between wealth, health, and environmental impact across countries using machine learning. We analyze how economic development, measured by GDP per capita, influences health outcomes (life expectancy) and environmental impact (GHG emissions per capita), while considering additional factors like labor force participation and military expenditure.
 

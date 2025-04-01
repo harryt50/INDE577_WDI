@@ -1,4 +1,4 @@
-# # K-Nearest Neighbors (KNN) Analysis
+## K-Nearest Neighbors (KNN) Analysis
 
 ## Background
 K-Nearest Neighbors (KNN) implementation for classifying countries based on their development indicators. This algorithm helps us understand how countries cluster together based on their wealth, health, and environmental characteristics, providing insights into development patterns and peer groups.

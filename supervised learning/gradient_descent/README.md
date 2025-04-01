@@ -10,10 +10,10 @@ Gradient Descent is a first-order iterative optimization algorithm widely used i
 
 The process of Gradient Descent involves updating the parameters iteratively based on the gradient of the cost function with respect to each parameter. At each iteration, the algorithm computes the gradient, which acts as a compass pointing toward the steepest ascent, and then takes a step in the opposite direction to descend the cost landscape. The size of this step is controlled by a hyperparameter called the learning rate, denoted as $\eta$. Mathematically, for a parameter $\theta$, the update rule is:
 
-$$$
+$$
 \theta = \theta - \eta \cdot \frac{\partial J}{\partial \theta}
 $$
-$
+
 where $\eta$ is the learning rate and $\frac{\partial J}{\partial \theta}$ is the partial derivative of the cost function $J$ with respect to $\theta$. If the learning rate is too large, the algorithm might overshoot the minimum, leading to divergence; if too small, convergence becomes painfully slow. Variants like Stochastic Gradient Descent (SGD) and Mini-Batch Gradient Descent introduce randomness by updating parameters using subsets of the data, improving efficiency for large datasets while still following the same descent principle.
 
 The ultimate goal of Gradient Descent is to converge to a local (or global) minimum of the cost function, where the gradient approaches zero, indicating no further improvement in the error. Convergence depends heavily on careful selection of the learning rate and the shape of the cost function. For convex cost functions (e.g., in linear regression), there is a single global minimum, ensuring Gradient Descent will find the optimal solution if the learning rate is appropriately chosen. However, for non-convex functions (e.g., in deep neural networks), multiple local minima exist, and the algorithm may settle in a suboptimal local minimum depending on the starting point and learning rate. Techniques like learning rate scheduling (e.g., reducing the learning rate over time) or adaptive methods like Adam (Adaptive Moment Estimation) can improve convergence by dynamically adjusting the step size. In practice, monitoring the cost function’s value over iterations and using a validation set helps ensure the model converges to a solution that generalizes well, aligning with the optimization goal of minimizing error while avoiding overfitting.

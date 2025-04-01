@@ -14,9 +14,7 @@ The model outputs a set of coefficients, each corresponding to an input feature,
 ## Theory
 
 Linear Regression is a **parametric, supervised learning algorithm** that seeks to model the relationship between a dependent variable (in our case, life expectancy) and one or more independent variables (like GDP, GHG emissions, and labor participation). It assumes that this relationship can be described by a linear equation of the form:  
-$$
-\hat{y} = \beta_0 + \beta_1x_1 + \beta_2x_2 + \ldots + \beta_nx_n
-$$
+$$\hat{y} = \beta_0 + \beta_1x_1 + \beta_2x_2 + \ldots + \beta_nx_n$$
 where \( \beta_0 \) is the intercept, and \( \beta_1, \beta_2, ..., \beta_n \) are the coefficients for each feature.
 
 To find the optimal values of these coefficients, Linear Regression minimizes the **sum of squared residuals**, which are the squared differences between the observed and predicted values. This process is also known as **Ordinary Least Squares (OLS)**. The resulting model provides interpretable coefficients that quantify the contribution of each feature to the outcome. However, for the model to yield valid insights, certain assumptions must be met: the relationship between features and target should be linear, residuals should be independent, have constant variance (homoscedasticity), and be normally distributed. Violating these assumptions may lead to biased or inefficient results.

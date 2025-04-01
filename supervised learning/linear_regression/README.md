@@ -34,8 +34,6 @@ n
 ​
  x 
 n
-​
-
 $$
 Where:
 - \( y \): Dependent variable (e.g., life expectancy)

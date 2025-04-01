@@ -10,9 +10,33 @@ The model outputs a set of coefficients, each corresponding to an input feature,
 
 ## Theory
 Linear Regression is a parametric, supervised learning algorithm that seeks to model the relationship between a dependent variable (in our case, life expectancy) and one or more independent variables (like GDP, GHG emissions, and labor participation). It assumes that this relationship can be described by a linear equation of the form:
-\[
-y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n + \epsilon
-\]
+$$
+y
+^
+​
+ =β 
+0
+​
+ +β 
+1
+​
+ x 
+1
+​
+ +β 
+2
+​
+ x 
+2
+​
+ +…+β 
+n
+​
+ x 
+n
+​
+
+$$
 Where:
 - \( y \): Dependent variable (e.g., life expectancy)
 - \( x_1, x_2, \dots, x_n \): Independent variables (e.g., GDP, GHG emissions, etc.)

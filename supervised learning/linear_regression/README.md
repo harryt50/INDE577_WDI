@@ -1,7 +1,5 @@
 # Linear Regression Analysis
 
-## Visualization Example
-
 ![Linear Regression Visualization](/images/linear_reg.png)
 
 This image illustrates the relationship between GDP per capita and life expectancy, showcasing the fitted regression line and data points. It provides a visual representation of how the model captures trends in the data.

@@ -1,142 +1,50 @@
 # Single Perceptron Analysis
 
-## Background
-The Single Perceptron is the most fundamental building block of artificial neural networks and serves as a binary classifier. In this project, the perceptron is used to classify countries into different development categories based on socio-economic and environmental indicators such as GDP per capita, GHG emissions, and labor force participation. This approach highlights how simple neural network structures can detect basic patterns in global development data.
+## 🧠 Single Perceptron
 
-Although it has a straightforward architecture, the perceptron offers critical insights into linear separability—the ability to separate data classes using a straight line (or hyperplane in higher dimensions). If the given indicators enable a clear boundary between high and low development countries, the perceptron can effectively model this. Its simplicity makes it not just a learning tool but also a diagnostic one—indicating whether more advanced models are required.
+### Background
 
-## Theory
+The **Single Perceptron** is the most fundamental building block of artificial neural networks and serves as a binary classifier. In this project, the perceptron is used to classify countries into different development categories based on socio-economic and environmental indicators such as **GDP per capita**, **GHG emissions**, and **labor force participation**. This approach highlights how simple neural network structures can detect basic patterns in global development data.
 
-The Single Perceptron is a binary classifier that performs classification based on a weighted sum of input features. Here's how it works:
+Although it has a straightforward architecture, the perceptron offers critical insights into **linear separability**—the ability to separate data classes using a straight line (or hyperplane in higher dimensions). If the given indicators enable a clear boundary between high and low development countries, the perceptron can effectively model this. Its simplicity makes it not just a learning tool but also a diagnostic one—indicating whether more advanced models are required.
 
-Takes multiple input features: 
-$$𝑥
-1
-,
-𝑥
-2
-,
-.
-.
-.
-,
-𝑥
-𝑛
-x 
-1
-​
- ,x 
-2
-​
- ,...,x 
-n$$
-​
- 
+---
 
-Computes a weighted sum with a bias term:
+### Theory
 
-$$𝑧
-=
-∑
-𝑖
-=
-1
-𝑛
-𝑤
-𝑖
-𝑥
-𝑖
-+
-𝑏
-z= 
-i=1
-∑
-n
-​
- w 
-i
-​
- x 
-i
-​
- +b$$
-Applies a step activation function to produce binary output:
+The **Single Perceptron** is a binary classifier that performs classification based on a weighted sum of input features. Here's how it works:
 
-$$𝑦
-^
-=
-{
-1
-if 
-𝑧
-≥
-0
-0
-otherwise
-y
-^
-​
- = 
-⎩
-⎨
-⎧
-​
-  
-1
-0
-​
-  
-if z≥0
-otherwise$$
-​
- 
-Updates weights using the Perceptron Learning Rule:
+1. **Takes multiple input features**: \( x_1, x_2, ..., x_n \)
+2. **Computes a weighted sum** with a bias term:  
 
-$$𝑤
-𝑖
-=
-𝑤
-𝑖
-+
-𝜂
-(
-𝑦
-−
-𝑦
-^
-)
-𝑥
-𝑖
-w 
-i
-​
- =w 
-i
-​
- +η(y− 
-y
-^
-​
- )x 
-i$$
-​
- 
+$$
+z = \sum_{i=1}^{n} w_i x_i + b
+$$
+
+3. **Applies a step activation function** to produce binary output:
+
+$$
+\hat{y} =
+\begin{cases}
+1 & \text{if } z \geq 0 \\\\
+0 & \text{otherwise}
+\end{cases}
+$$
+
+4. **Updates weights using the Perceptron Learning Rule**:
+
+$$
+w_i = w_i + \eta (y - \hat{y}) x_i
+$$
+
 where:
 
-$$𝜂
-η is the learning rate
-
-𝑦
-y is the true label
-
-𝑦
-^
-y
-^
-​
-  is the predicted label$$
+- \( \eta \) is the learning rate  
+- \( y \) is the true label  
+- \( \hat{y} \) is the predicted label
 
 This process continues iteratively until convergence—either achieving perfect classification (if the data is linearly separable) or hitting a stopping condition. While simple, the Single Perceptron is historically significant and forms the foundation of more complex neural network architectures.
+
 
 The Single Perceptron is a binary classifier that:
 1. Takes multiple input features and learns weights for each

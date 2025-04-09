@@ -185,21 +185,6 @@ INDE577_WDI/
 ├──images
 ```
 
-## Key Findings
-1. **Economic Development Impact**:
-   - Strong correlation between GDP and life expectancy
-   - Labor force participation moderates health outcomes
-   - Military expenditure affects environmental impact
-
-2. **Environmental Patterns**:
-   - GHG emissions per capita varies with development stage
-   - Military spending correlates with higher emissions
-   - Debt service impacts environmental investment
-
-3. **Development Pathways**:
-   - Three distinct country clusters identified
-   - Trade-offs between growth and sustainability
-   - Role of labor force in development
 
 ## References
 1. World Bank World Development Indicators

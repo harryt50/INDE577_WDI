@@ -29,7 +29,6 @@ Our journey begins with a fundamental question: How do wealth, health, and envir
 - **Key Features**:
   - Learning rate: 0.01
   - Max iterations: 1000
-  - Stochastic gradient descent implementation
 
 #### 3. Linear Regression
 - **Purpose**: Model relationships between development indicators

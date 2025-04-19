@@ -58,8 +58,7 @@ Key concepts:
 ### Algorithm Configuration
 1. Model Selection:
    - Custom implementation of gradient descent
-   - Comparison with SGDRegressor from scikit-learn
-   - Linear regression as baseline
+   - LRandom Forest
 
 2. Hyperparameter Tuning:
    - Learning rates: [0.001, 0.01, 0.1]
@@ -89,18 +88,7 @@ Key concepts:
    - Error distribution analysis
 
 ## Technical Details
-- Library: scikit-learn (SGDRegressor)
-- Algorithm Parameters:
-  ```python
-  SGDRegressor(
-      loss='squared_error',
-      learning_rate='adaptive',
-      eta0=0.01,
-      max_iter=1000,
-      tol=1e-6,
-      random_state=42
-  )
-  ```
+- Library: scikit-learn (RandomForestRegressor)
 - Custom Implementation:
   ```python
   def gradient_descent(X, y, learning_rate=0.01, max_iter=1000):

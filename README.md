@@ -95,15 +95,14 @@ Our journey begins with a fundamental question: How do wealth, health, and envir
 import wbdata
 import pandas as pd
 
-indicators = {
-    "NY.GDP.PCAP.CD": "GDP per capita",
-    "SP.DYN.LE00.IN": "Life Expectancy",
-    "EN.GHG.ALL.MT.CE.AR5": "Total GHG Emissions",
-    "SP.POP.TOTL": "Population",
-    "SL.TLF.CACT.ZS": "Labor Force Participation",
-    "MS.MIL.XPND.GD.ZS": "Military Expenditure",
-    "DT.TDS.DPPF.XP.ZS": "Debt Service"
-}
+   indicators = {
+        'NY.GDP.PCAP.KD': 'GDP per capita',
+        'SP.DYN.LE00.IN': 'Life Expectancy',
+        'EN.GHG.ALL.MT.CE.AR5': 'CO2 Emissions per Capita',
+        'SL.TLF.CACT.ZS': 'Labor Force Participation',
+        'MS.MIL.XPND.GD.ZS': 'Military Expenditure',
+        'DT.TDS.DPPF.XP.ZS': 'Debt Service'
+    }
 ```
 
 ### Data Preprocessing

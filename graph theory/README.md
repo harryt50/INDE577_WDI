@@ -4,7 +4,6 @@
 
 ![Global Development Networks](/images/global_connections.png "Visualization of Trade and Similarity Networks")
 
-### The Challenge
 Countries are interconnected through trade, investment, and shared development challenges, forming complex global networks. However, missing or negligible connections—represented as **zero-weight edges**—can distort our understanding of these networks. These gaps might indicate missing trade relationships, environmental disparities, or data limitations, potentially skewing analyses of global development patterns.
 
 ### Objective

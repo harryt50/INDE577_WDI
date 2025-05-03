@@ -88,6 +88,14 @@ Our journey begins with a fundamental question: How do wealth, health, and envir
   - Silhouette score evaluation
   - Cluster visualization
 
+#### 11. DBSCAN Clustering
+- **Purpose**: Identify clusters of countries based on development indicators while detecting outliers.
+- **Key Features**:
+- Density-based clustering algorithm
+- Automatically identifies outliers (noise points)
+- Parameters: eps (neighborhood radius) and min_samples (minimum points to form a cluster)
+- Visualizes clusters using PCA projection
+
 ## Technical Implementation
 
 ### Data Collection

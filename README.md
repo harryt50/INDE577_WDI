@@ -188,10 +188,12 @@ INDE577_WDI/
 │   ├── logistic_regression/
 │   ├── random_forests/
 │   ├── ensemble_learning/
+    ├── gradient_descent/
 ├── unsupervised_learning/
 │   ├── dbscan/
 │   │   ├── dbscan_notebook.ipynb
 │   ├── kmeans/
+├── single_neuron/
 ```
 
 

@@ -167,20 +167,23 @@ pytest>=6.2.5
 ## Project Structure
 ```
 INDE577_WDI/
+├── README.md
+├── graph_theory/
+│   ├── ZeroWeightEdges_GlobalDevNetworks.ipynb
+├── images/
+├── Income_Group_Project_package/
+│   ├── Predicting_Income_Groups_Notebook.ipynb
+│   ├── ml_package/
 ├── supervised_learning/
 │   ├── knn/
-│   ├── gradient_descent/
 │   ├── linear_regression/
 │   ├── logistic_regression/
-│   ├── single_perceptron/
-│   ├── mlp/
-│   ├── decision_trees/
 │   ├── random_forests/
-│   └── ensemble_learning/
+│   ├── ensemble_learning/
 ├── unsupervised_learning/
-│   └── kmeans/
-└── README.md
-├──images
+│   ├── dbscan/
+│   │   ├── dbscan_notebook.ipynb
+│   ├── kmeans/
 ```
 
 

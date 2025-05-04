@@ -19,7 +19,7 @@ for p in sys.path:
 
 # Now try importing
 try:
-    from ml_package.ml_models import (
+    from Income_Group_Project_package.ml_package.clkr_models import (
         CustomLogisticRegression,
         CustomKNNClassifier,
         CustomRandomForestClassifier

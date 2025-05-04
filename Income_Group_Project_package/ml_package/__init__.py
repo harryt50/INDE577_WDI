@@ -1,2 +1,2 @@
-from .ml_models import CustomLogisticRegression, CustomKNNClassifier, CustomRandomForestClassifier
+from .clkr_models import CustomLogisticRegression, CustomKNNClassifier, CustomRandomForestClassifier
 

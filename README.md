@@ -189,7 +189,7 @@ INDE577_WDI/
 │   ├── decision_tree/
 │   ├── random_forests/
 │   ├── ensemble_learning/
-│    ├── gradient_descent/
+│   ├── gradient_descent/
 ├── unsupervised_learning/
 │   ├── dbscan/
 │   │   ├── dbscan_notebook.ipynb

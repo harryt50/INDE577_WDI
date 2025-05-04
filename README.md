@@ -186,6 +186,7 @@ INDE577_WDI/
 │   ├── knn/
 │   ├── linear_regression/
 │   ├── logistic_regression/
+│   ├── decision_tree/
 │   ├── random_forests/
 │   ├── ensemble_learning/
     ├── gradient_descent/
